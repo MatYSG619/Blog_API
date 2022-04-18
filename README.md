@@ -24,15 +24,14 @@ Python 3.10
 
 ## Установка
 ```console
-pip3 install git
-git clone https://github.com/MatYSG619/Blog_API/new/master
+git clone https://github.com/MatYSG619/Blog_API/tree/master
 cd Blog_API
 pip install -r requirenments.txt
 python manage.py runserver
 ```
 ## models
 #### Article
-|Поле|Тип|
+|field|type|
 |-----|----|
 |title|CharField(max_length=150)|
 |description|TextField()|
